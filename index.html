@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MechanicKeyboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+  </head>
+  <body>
+    <header>
+      <ul class="cabeca">
+        <li class="about-cursor">
+          <a class="cursor-a" href="#title-second">about</a>
+        </li>
+        <li class="spec-cursor">
+          <a class="cursor-a" href="#specifications">specifications</a>
+        </li>
+        <li class="buy-cursor">
+          <a class="cursor-a" href="#title-quatro">buy</a>
+        </li>
+      </ul>
+    </header>
+    <section class="hero">
+      <h1 id="title">mechanic keyboard</h1>
+      <div class="div-img">
+        <img class="keyboard-first" src="./assets/hero-principal.png" />
+      </div>
+      <hr />
+    </section>
+    <section class="hero-second">
+      <h2 id="title-second">about</h2>
+      <div class="container">
+        <button id="prev-btn">
+          <ion-icon class="btn-left" name="chevron-back-circle"></ion-icon>
+        </button>
+        <div class="img-carrossel">
+          <img
+            src="./assets/second-principal.png"
+            alt="keyboard"
+            class="slider"
+          />
+          <img
+            src="./assets/second-second.png"
+            alt="keyboard"
+            class="slider on"
+          />
+        </div>
+        <button id="next-btn">
+          <ion-icon name="chevron-forward-circle"></ion-icon>
+        </button>
+      </div>
+      <p class="text-about">
+        O Mechanic Keyboard oferece uma experiência de digitação excepcional,
+        combinando switches mecânicos de alta qualidade com iluminação
+        personalizável.
+      </p>
+    </section>
+    <section class="hero-tres">
+      <h3 id="specifications">specifications</h3>
+      <div class="corpo-specifications">
+        <div class="img-spec">
+          <img src="./assets/Color_circle_(RGB).png" class="img-tres" />
+          <img src="./assets/keyboard-pink.webp" class="img-tres" />
+          <img src="./assets/yellow-switch-dualside-v2.png" class="img-tres" />
+        </div>
+        <ul class="text-specifications">
+          <li>Tipo de Switch: Switches mecânicos.</li>
+          <li>
+            Iluminação RGB: LED com opções de personalização de cores e padrões.
+          </li>
+          <li>Layout: Layout compacto de 60%</li>
+          <li>Construção: Estrutura durável em plástico ABS</li>
+          <li>Conexão: Conexão via USB com cabo TIPO C</li>
+          <li>
+            Compatibilidade: Compatível com sistemas operacionais Windows, MacOS
+            e Linux.
+          </li>
+          <li>Dimensões: cerca de 30 cm de largura x 10 cm de profundidade</li>
+          <li>Peso: Leve, com peso médio de 300g</li>
+          <li>Personalização: Software de personalização</li>
+          <li>Anti-Ghosting e N-Key Rollover</li>
+          <li>
+            Vida Útil das Teclas: aproximadamente 50 a 100 milhões de
+            pressionamentos
+          </li>
+          <li>Garantia: Garantia padrão de dois anos</li>
+        </ul>
+      </div>
+    </section>
+    <section class="hero-quatro">
+      <h4 id="title-quatro">buy</h4>
+      <div class="container-buy">
+        <img src="./assets/second-tres.png" class="img-buy" />
+        <p class="text-buy">R$ 352,99</p>
+        <button class="btn-buy">
+          <a
+            class="link-btn"
+            href="https://www.amazon.com.br/Teclado-Mec%C3%A2nico-Redragon-Wireless-Bluetooth/dp/B0CJDLKZ5L/ref=asc_df_B0CJDLKZ5L/?tag=googleshopp00-20&linkCode=df0&hvadid=647613226934&hvpos=&hvnetw=g&hvrand=7644095101331152890&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031944&hvtargid=pla-2247576084224&psc=1&mcid=1e6761e1e56a3989b3acb9b6ab10476e"
+            target="_blank"
+            >here</a
+          >
+        </button>
+      </div>
+    </section>
+    <footer>
+      <div class="container-footer">
+        Desenvolvido por Luisa Senzaki
+        <a class="github" href="https://github.com/LuisaSenzaki" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
